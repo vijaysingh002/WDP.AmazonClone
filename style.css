@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -129,7 +128,8 @@
 .box1-image {
     width: 100%;
     height: auto;
-    object-fit: contain;
+    object-fit: cover; /* Better suited for flex layouts */
+    max-height: 200px; /* Ensure the images don’t take too much space */
 }
 
 @media screen and (max-width: 1024px) {
@@ -160,7 +160,7 @@
 .foot-pannel-2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around; /* Balance items in footer */
 }
 
 .foot-pannel-2 ul {
@@ -177,5 +177,6 @@
     .foot-pannel-2 ul {
         width: 100%;
         text-align: center;
+        flex: 1 1 100%; /* Ensure full-width on mobile */
     }
 }
