@@ -28,13 +28,8 @@ HTML5: For creating the basic structure of the Amazon clone.
 CSS3: For styling and layout to closely resemble Amazon’s design.
 JavaScript: Adds interactivity to elements such as navigation and search.
 
-🎨 Screenshots
-A preview of the hero section in the Amazon clone.
-
-Custom Amazon-styled navigation bar with search functionality.
-
-
 🌐 Live Demo
+
 Check out the live version of this project here 📲.
 
 
@@ -52,3 +47,4 @@ This project is licensed under the MIT License. Feel free to modify and use the 
 
 🤝 Contributing
 Contributions are welcome! Please fork this repository and submit a pull request with your changes.
+
